@@ -8,8 +8,81 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anta&display=swap">
 </head>
 <body>
-    <img class="container__fundo" src="Img/numero7.png">
-    <a href="#" class="link">PRINCIPAIS TÍTULOS</a>
-    <a href="#" class="link">GOLS POR CLUBES/SELEÇÃO</a>
+    <div class="container">
+        <img class="container__fundo" src="Img/numero7.png">
+        <div class="buttons">
+            <a href="#" class="link efeito" id="openModal">PRINCIPAIS TÍTULOS</a>
+            <a href="#" class="link efeito" id="openModalGols">GOLS POR CLUBES/SELEÇÃO</a>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Títulos</h2>
+            <p><strong><u>SPORTING:</u></strong><br><br>
+                Supertaça de Portugal: 2002[1]<br><br><br>
+                <strong><u>MANCHESTER UNITED:</u></strong><br><br>
+                Campeonato do Mundo de Clubes da FIFA: 2008<br>
+                Liga dos Campeões da UEFA: 2007–08<br>
+                Campeonato Inglês: 2006–07, 2007–08, 2008–09<br>
+                Taça da Inglaterra: 2003–04<br>
+                Taça da Liga Inglesa: 2005–06, 2008–09<br>
+                Supertaça da Inglaterra: 2007, 2008<br><br><br>
+                <strong><u>REAL MADRID:</u></strong><br><br>
+                Campeonato do Mundo de Clubes da FIFA: 2014, 2016, 2017<br>
+                Liga dos Campeões da UEFA: 2013–14, 2015–16, 2016–17, 2017–18<br>
+                Supercopa da UEFA: 2014, 2016, 2017<br>
+                Campeonato Espanhol: 2011–12, 2016–17<br>
+                Taça do Rei: 2010–11, 2013–14<br>
+                Supertaça da Espanha: 2012, 2017<br><br><br>
+                <strong><u>JUVENTUS:</u></strong><br><br>
+                Campeonato Italiano: 2018–19, 2019–20<br>
+                Supertaça da Itália: 2018, 2020<br>
+                Coppa Italia: 2020–21<br><br><br>
+                <strong><u>AL-NASSR:</u></strong><br>
+                Copa dos Campeões Árabes: 2023<br><br><br>
+                <strong><u>SELEÇÃO PORTUGUESA:</u></strong><br>
+                Campeonato Europeu: 2016<br>
+                Liga das Nações da UEFA: 2018–19<br><br><br>
+                <strong><u>PORTUGAL SUB-21:</u></strong><br><br>
+                Torneio Internacional de Toulon: 2003[2]</p>
+        </div>
+    </div>
+
+    <!-- Modal de Gols por clubes/seleção -->
+    <div id="myModalGols" class="modal">
+        <div class="modal-content hidden"> <!-- Adicionando a classe hidden -->
+           <span class="close">&times;</span>
+           <h2>Jogos/Gols</h2>
+            <p><strong><u>SPORTING:</u></strong><br><br>
+                Jogos: 4;<br> 
+                Gols: 5; <br>
+                Gamewinning-Goals: 1;<br><br><br>
+                <strong><u>MANCHESTER UNITED:</u></strong><br><br>
+                Jogos: 111;<br> 
+                Gols: 145;<br> 
+                Gamewinning-Goals: 56;<br><br><br>
+                <strong><u>REAL MADRID:</u></strong><br><br>
+                Jogos: 438;<br> 
+                Gols: 450;<br> 
+                Gamewinning-Goals: 129;<br><br><br>
+                <strong><u>JUVENTUS:</u></strong><br><br>
+                Jogos: 75;<br> 
+                Gols: 101;<br> 
+                Gamewinning-Goals: 34;<br><br><br>
+                <strong><u>AL-NASSR</u></strong><br><br>
+                Jogos: 67;<br>
+                Gols: 62;<br> 
+                Gamewinning-Goals: 17;<br><br><br> 
+                <strong><u>SELEÇÃO PORTUGUESA</u></strong><br><br>
+                Jogos: 206;<br>
+                Gols: 128;
+            </p>
+           <!-- Conteúdos sobre Gols por clubes/seleção aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
