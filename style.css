@@ -15,7 +15,7 @@
 /* Remova esta regra do primeiro modal */
 .modal-content {
     /* display: none; */
-    background-color: #f7d0a5;
+    background-color: #e4ab6f;
     margin: 10% auto; /* Centraliza o modal verticalmente */
     padding: 20px;
     border: 1px solid #020202;
@@ -37,7 +37,7 @@
 }
 
 #myModalGols .modal-content {
-    background-color: #f7d0a5;
+    background-color: #e4ab6f;
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #0f0e0e;
@@ -125,6 +125,22 @@
     background-color: rgba(57, 53, 73, 0.5); /* Altera a cor de fundo ao passar o mouse */
     box-shadow: 0 6px 8px rgba(7, 7, 6, 0.15), 0 3px 6px rgba(42, 104, 175, 0.12);
 }
+
+/* Estilo para a fonte Shadows Into Light apenas nos títulos dentro dos modais */
+.modal-content h2.shadows-into-light-regular {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+/* Estilo para a classe "total-gols" */
+.modal-content .total-gols {
+    border: 0.5px solid #13100e; /* Cor da borda */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    text-align: center; /* Alinhamento centralizado */
+    font-size: 40px; /* Tamanho da fonte */
+}
+
 
 
     background-color: rgba(57, 53, 73, 0.5); /* Altera a cor de fundo ao passar o mouse */
