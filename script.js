@@ -22,3 +22,4 @@ document.querySelector('#myModalGols .close').addEventListener('click', function
     modalGols.style.display = 'none';
 });
 
+
